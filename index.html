@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Delta Balance – Gestão financeira estratégica para pequenas empresas. Clareza, segurança e equilíbrio nas suas finanças." />
+  <meta name="keywords" content="gestão financeira, BPO financeiro, assessoria financeira, pequenas empresas, consultoria financeira" />
+  <meta property="og:title" content="Delta Balance – Gestão Financeira Estratégica" />
+  <meta property="og:description" content="Organizamos, estruturamos e proporcionamos clareza financeira para pequenas empresas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.deltabalance.com.br" />
+  <title>Delta Balance – Gestão Financeira Estratégica</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#inicio" class="nav__logo" aria-label="Delta Balance – página inicial">
+        <img src="assets/logos/logotipo-branco-crop.svg"
+             class="nav__logo-img nav__logo-img--light"
+             alt="Delta Balance"
+             width="180" height="62" />
+        <img src="assets/logos/logotipo-verde-bege-crop.svg"
+             class="nav__logo-img nav__logo-img--dark"
+             alt="Delta Balance"
+             width="180" height="62" />
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu" role="list">
+        <li><a href="#servicos" class="nav__link">Serviços</a></li>
+        <li><a href="#metodologia" class="nav__link">Metodologia</a></li>
+        <li><a href="#sobre" class="nav__link">Sobre</a></li>
+        <li><a href="#contato" class="nav__link nav__link--cta">Fale Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg-shape" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <div class="hero__text">
+          <p class="hero__eyebrow">Gestão Financeira Empresarial</p>
+          <h1 class="hero__title">
+            Clareza financeira para o seu negócio crescer com <em>equilíbrio</em>
+          </h1>
+          <p class="hero__subtitle">
+            Organizamos, estruturamos e acompanhamos a gestão financeira da sua empresa para que você tome decisões com segurança e foque no que realmente importa: crescer.
+          </p>
+          <div class="hero__actions">
+            <a href="#contato" class="btn btn--primary">Quero começar</a>
+            <a href="#servicos" class="btn btn--secondary">Conheça os serviços</a>
+          </div>
+        </div>
+        <div class="hero__mockup">
+          <img src="assets/images/mockup-site.png"
+               class="hero__mockup-img"
+               alt="Delta Balance – visualização do sistema"
+               width="520" />
+          <div class="hero__mockup-badge">
+            <img src="assets/symbols/simbolo-branco-crop.svg"
+                 class="hero__mockup-badge-icon"
+                 alt="" aria-hidden="true"
+                 width="28" height="28" />
+            <div>
+              <strong>Metodologia Delta</strong>
+              <span>Framework proprietário de gestão</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll-indicator" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ========== PILARES ========== -->
+    <section class="pillars" id="pilares">
+      <div class="container">
+        <div class="pillars__grid">
+          <article class="pillar-card">
+            <div class="pillar-card__icon">
+              <img src="assets/elements/clareza-verde-crop.svg"
+                   alt="" aria-hidden="true" width="72" height="72" />
+            </div>
+            <h3 class="pillar-card__title">Clareza</h3>
+            <p class="pillar-card__text">Compreenda com precisão a situação financeira da sua empresa em faturamento, despesas e geração de lucro.</p>
+          </article>
+
+          <article class="pillar-card pillar-card--featured">
+            <div class="pillar-card__icon">
+              <img src="assets/elements/equilibrio-gelo-crop.svg"
+                   alt="" aria-hidden="true" width="72" height="72" />
+            </div>
+            <h3 class="pillar-card__title">Equilíbrio</h3>
+            <p class="pillar-card__text">Harmonia entre vendas, capacidade produtiva e gestão financeira para crescimento estruturado e sustentável.</p>
+          </article>
+
+          <article class="pillar-card">
+            <div class="pillar-card__icon">
+              <img src="assets/elements/seguranca-verde-crop.svg"
+                   alt="" aria-hidden="true" width="72" height="72" />
+            </div>
+            <h3 class="pillar-card__title">Segurança</h3>
+            <p class="pillar-card__text">Tome decisões empresariais com respaldo em dados reais, compreendendo o impacto financeiro de cada escolha.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="services" id="servicos">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Como atuamos</p>
+          <h2 class="section-title">Serviços que transformam<br>sua gestão financeira</h2>
+          <p class="section-subtitle">Três formatos de atuação adaptados às necessidades da sua empresa.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card">
+            <div class="service-card__number">01</div>
+            <div class="service-card__icon">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="12" width="40" height="32" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M8 20H48" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M18 30H28M18 36H24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="38" cy="33" r="6" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="2"/>
+                <path d="M36 33L37.5 34.5L40 32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">BPO Financeiro</h3>
+            <p class="service-card__text">
+              Assumimos a execução completa das rotinas financeiras da sua empresa: lançamentos, conciliações bancárias, contas a pagar e a receber, relatórios e acompanhamento periódico.
+            </p>
+            <ul class="service-card__list">
+              <li>Organização de movimentações financeiras</li>
+              <li>Conciliação bancária</li>
+              <li>Relatórios financeiros mensais</li>
+              <li>Previsão semanal de fluxo de caixa</li>
+            </ul>
+            <a href="#contato" class="service-card__link">Saiba mais →</a>
+          </article>
+
+          <article class="service-card service-card--featured">
+            <div class="service-card__badge">Mais popular</div>
+            <div class="service-card__number">02</div>
+            <div class="service-card__icon">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="28" cy="28" r="20" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M20 28L26 22L32 28L38 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20 34H36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Assessoria Financeira Mensal</h3>
+            <p class="service-card__text">
+              Suporte estratégico recorrente para empresas que já possuem equipe financeira interna. Acompanhamento, análise e orientação para decisões mais inteligentes.
+            </p>
+            <ul class="service-card__list">
+              <li>Acompanhamento periódico de resultados</li>
+              <li>Análise estratégica com frameworks Delta</li>
+              <li>Orientação para tomada de decisão</li>
+              <li>Análise mensal de desempenho financeiro</li>
+            </ul>
+            <a href="#contato" class="service-card__link">Saiba mais →</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__number">03</div>
+            <div class="service-card__icon">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 42L28 14L42 42H14Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M21 34L28 21L35 34" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <circle cx="28" cy="14" r="3" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Consultoria Estratégica</h3>
+            <p class="service-card__text">
+              Análises pontuais e aprofundadas aplicando os frameworks da Metodologia Delta para diagnósticos específicos do seu negócio.
+            </p>
+            <ul class="service-card__list">
+              <li>Diagnóstico da estrutura financeira</li>
+              <li>Análise de formação de preços</li>
+              <li>Planejamento financeiro estratégico</li>
+              <li>Identificação de oportunidades de melhoria</li>
+            </ul>
+            <a href="#contato" class="service-card__link">Saiba mais →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== METHODOLOGY ========== -->
+    <section class="methodology" id="metodologia">
+      <div class="methodology__symbol-bg" aria-hidden="true">
+        <img src="assets/symbols/simbolo-branco-crop.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="methodology__layout">
+          <div class="methodology__intro">
+            <p class="section-eyebrow section-eyebrow--light">Nossa abordagem</p>
+            <h2 class="section-title section-title--light">Metodologia Delta</h2>
+            <p class="methodology__description">
+              Desenvolvida a partir de mais de 10 anos de experiência prática, a Metodologia Delta organiza a análise financeira por meio de frameworks integrados que permitem interpretar o negócio de forma completa.
+            </p>
+            <p class="methodology__description">
+              Não trabalhamos com indicadores isolados. Conectamos faturamento, despesas, precificação e operação em um sistema único de gestão estratégica.
+            </p>
+            <a href="#contato" class="btn btn--light">Conhecer a metodologia</a>
+          </div>
+
+          <div class="methodology__frameworks">
+            <div class="framework-item">
+              <div class="framework-item__number">01</div>
+              <div class="framework-item__content">
+                <h4>Pirâmide do Lucro</h4>
+                <p>Equilíbrio entre vendas, gestão financeira e operação para identificar onde o lucro está sendo impactado.</p>
+              </div>
+            </div>
+            <div class="framework-item">
+              <div class="framework-item__number">02</div>
+              <div class="framework-item__content">
+                <h4>Pirâmide de Faturamento</h4>
+                <p>Estrutura metas de faturamento em níveis: mínimo, ideal e de expansão, dando clareza sobre onde o negócio está.</p>
+              </div>
+            </div>
+            <div class="framework-item">
+              <div class="framework-item__number">03</div>
+              <div class="framework-item__content">
+                <h4>Tríade de Despesas</h4>
+                <p>Classifica e organiza a estrutura de custos da empresa para identificar desequilíbrios e oportunidades de otimização.</p>
+              </div>
+            </div>
+            <div class="framework-item">
+              <div class="framework-item__number">04</div>
+              <div class="framework-item__content">
+                <h4>Precificação Delta</h4>
+                <p>Conecta estrutura de despesas, metas de faturamento e mercado para definir preços que garantam sustentabilidade financeira.</p>
+              </div>
+            </div>
+            <div class="framework-item">
+              <div class="framework-item__number">05</div>
+              <div class="framework-item__content">
+                <h4>Do Macro ao Micro</h4>
+                <p>Planejamento estratégico que conecta a visão de longo prazo com as ações práticas do dia a dia da operação.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROCESS ========== -->
+    <section class="process" id="processo">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Como funciona</p>
+          <h2 class="section-title">Sistema Delta de<br>Gestão Financeira</h2>
+          <p class="section-subtitle">Um processo estruturado que transforma dados financeiros em decisões estratégicas.</p>
+        </div>
+
+        <div class="process__steps">
+          <div class="process__step">
+            <div class="process__step-number">1</div>
+            <div class="process__step-content">
+              <h4>Diagnóstico</h4>
+              <p>Análise completa da situação financeira atual: faturamento, despesas, estrutura de custos e organização existente.</p>
+            </div>
+          </div>
+          <div class="process__connector" aria-hidden="true">→</div>
+          <div class="process__step">
+            <div class="process__step-number">2</div>
+            <div class="process__step-content">
+              <h4>Análise de Frameworks</h4>
+              <p>Aplicação integrada dos frameworks da Metodologia Delta para uma visão completa do negócio.</p>
+            </div>
+          </div>
+          <div class="process__connector" aria-hidden="true">→</div>
+          <div class="process__step">
+            <div class="process__step-number">3</div>
+            <div class="process__step-content">
+              <h4>Organização Financeira</h4>
+              <p>Estruturação das rotinas financeiras e consolidação das informações para análise estratégica.</p>
+            </div>
+          </div>
+          <div class="process__connector" aria-hidden="true">→</div>
+          <div class="process__step">
+            <div class="process__step-number">4</div>
+            <div class="process__step-content">
+              <h4>Acompanhamento</h4>
+              <p>Monitoramento contínuo com análises mensais de resultado e previsão semanal de fluxo de caixa.</p>
+            </div>
+          </div>
+          <div class="process__connector" aria-hidden="true">→</div>
+          <div class="process__step">
+            <div class="process__step-number">5</div>
+            <div class="process__step-content">
+              <h4>Ajustes Estratégicos</h4>
+              <p>Revisão e ajuste contínuo dos direcionamentos para manter o negócio em crescimento sustentável.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about" id="sobre">
+      <div class="container">
+        <div class="about__layout">
+          <div class="about__visual">
+            <div class="about__image-frame">
+              <img src="assets/images/mockup-escritorio.png"
+                   class="about__mockup-img"
+                   alt="Delta Balance em uso no escritório"
+                   width="560" />
+            </div>
+            <div class="about__stats">
+              <div class="about__stat">
+                <strong>+10 anos</strong>
+                <span>de experiência</span>
+              </div>
+              <div class="about__stat">
+                <strong>3 níveis</strong>
+                <span>de análise financeira</span>
+              </div>
+              <div class="about__stat">
+                <strong>5 frameworks</strong>
+                <span>da Metodologia Delta</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__content">
+            <p class="section-eyebrow">Sobre a Delta Balance</p>
+            <h2 class="section-title">Mais do que gestão financeira – um braço direito estratégico</h2>
+            <p class="about__text">
+              A Delta Balance nasceu da experiência prática de <strong>Jéssica da Silva Szczepanik</strong> no acompanhamento financeiro de pequenas empresas desde 2016. Ao longo dessa trajetória, percebeu que a maioria das empresas não precisava apenas de controles financeiros — precisava de uma forma estruturada de transformar dados em decisões.
+            </p>
+            <p class="about__text">
+              Foi a partir dessa necessidade real que surgiu a <strong>Metodologia Delta</strong>: um conjunto de frameworks integrados que permitem compreender a dinâmica financeira de um negócio de forma completa, conectando faturamento, despesas, precificação e operação em um único sistema de gestão.
+            </p>
+            <div class="about__values">
+              <div class="about__value">
+                <strong>Visão</strong>
+                <p>Ser reconhecida como um braço direito estratégico para empresários que buscam crescimento organizado e expansão sustentável.</p>
+              </div>
+              <div class="about__value">
+                <strong>Missão</strong>
+                <p>Organizar, estruturar e proporcionar clareza financeira para pequenas empresas, permitindo decisões estratégicas com segurança e equilíbrio.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner">
+      <div class="container">
+        <div class="cta-banner__content">
+          <h2 class="cta-banner__title">Pronto para ter clareza sobre as finanças da sua empresa?</h2>
+          <p class="cta-banner__text">Agende uma conversa e descubra como a Delta Balance pode transformar a gestão financeira do seu negócio.</p>
+          <a href="#contato" class="btn btn--white">Falar com a equipe</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact" id="contato">
+      <div class="container">
+        <div class="contact__layout">
+          <div class="contact__info">
+            <p class="section-eyebrow">Entre em contato</p>
+            <h2 class="section-title">Vamos conversar<br>sobre o seu negócio</h2>
+            <p class="contact__text">
+              Entre em contato pelo canal de sua preferência. Nossa equipe está pronta para entender a realidade da sua empresa e apresentar as melhores soluções.
+            </p>
+            <div class="contact__channels">
+              <a href="https://wa.me/554791101906" class="contact__channel" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                <span>WhatsApp</span>
+              </a>
+              <a href="mailto:contatodeltabalance@gmail.com" class="contact__channel">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="2" y="4" width="20" height="16" rx="2"/>
+                  <path d="M2 7l10 7 10-7"/>
+                </svg>
+                <span>contatodeltabalance@gmail.com</span>
+              </a>
+              <a href="https://www.instagram.com/deltabalance" class="contact__channel" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="2" y="2" width="20" height="20" rx="5"/>
+                  <circle cx="12" cy="12" r="5"/>
+                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+                </svg>
+                <span>@deltabalance</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__layout">
+        <div class="footer__brand">
+          <a href="#inicio" class="nav__logo" aria-label="Delta Balance – início">
+          <img src="assets/logos/logotipo-branco-crop.svg"
+               class="nav__logo-img nav__logo-img--light"
+               alt="Delta Balance"
+               width="180" height="62" />
+          <img src="assets/logos/logotipo-verde-bege-crop.svg"
+               class="nav__logo-img nav__logo-img--dark"
+               alt="Delta Balance"
+               width="180" height="62" />
+        </a>
+          <p class="footer__tagline">Clareza, segurança e equilíbrio financeiro para o seu negócio.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Serviços</h4>
+          <ul>
+            <li><a href="#servicos">BPO Financeiro</a></li>
+            <li><a href="#servicos">Assessoria Mensal</a></li>
+            <li><a href="#servicos">Consultoria Estratégica</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#metodologia">Metodologia Delta</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Delta Balance. Todos os direitos reservados.</p>
+        <p>Desenvolvido com propósito e método.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

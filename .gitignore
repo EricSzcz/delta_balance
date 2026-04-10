@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Claude Code
+.claude/
+
+# Original brand source files (kept locally, not needed for the site)
+Marca l Delta Balance/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
